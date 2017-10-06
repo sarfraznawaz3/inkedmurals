@@ -1,0 +1,42 @@
+.mwp-heard-close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 10px;
+	cursor:pointer;
+} 
+.mwp-heard-block {
+	position:relative;
+	width: 100%;
+	float: left;
+	min-height: 1px;
+	white-space: normal;
+} 
+.mwp-heard-img, .mwp-heard-text {
+	float: left;
+	min-height: 1px;
+	white-space: normal;
+	display: inline-block;
+	vertical-align: middle;
+} 
+.mwp-heard-img {
+	
+	padding:10px 10px;
+	border-radius:35px;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+}
+.mwp-heard-text {
+	width:200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.3;
+}
+.mwp-heard-title{
+	font-weight: bold;
+}
+.mwp-heard-icon{   	
+	font-size:40px !important;	
+	line-height: 40px;
+}
